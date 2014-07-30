@@ -1,0 +1,1 @@
+You found a <? echo $rand_berry1 ?> <img src="/img/berrys/<? echo  $rand_berry1 ?>.png"</img>
