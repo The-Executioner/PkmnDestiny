@@ -10,8 +10,8 @@
   </tr>
 </table>
 <br/></br>
-<map name="Map" id="Map"><area shape="rect" coords="-2,127,57,164" href="login.php" />
-<area shape="rect" coords="74,128,169,165" href="register.php" />
+<map name="Map" id="Map"><area shape="rect" coords="-2,127,57,164" href="signin.php" />
+<area shape="rect" coords="74,128,169,165" href="signup.php" />
 </map>
 </div>
 <? include 'footer.php'; ?>
