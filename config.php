@@ -1,1 +1,1 @@
-<? session_start(); $conn = mysql_connect("localhost","pkmnazur_Citrix","Suicune75"); $db = mysql_select_db("pkmnazur_mmo"); $user1 = mysql_query("SELECT * FROM `users` WHERE `id`='".$_SESSION['id']."'"); $user = mysql_fetch_object($user1); ?>
+<? session_start(); $dbconf = mysql_connect("localhost","",""); $db = mysql_select_db(""); $user1 = mysql_query("SELECT * FROM `users` WHERE `id`='".$_SESSION['id']."'"); $user = mysql_fetch_object($user1); ?>
